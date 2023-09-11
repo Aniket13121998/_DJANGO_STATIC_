@@ -1,0 +1,29 @@
+  1 try { . "c:\Users\ANIKET BAKORIYA\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser...
+   2 python -m venv env
+   3 cd .\env\
+   4 cd .\Include\
+   5 cd ..
+   6 cd .\Scripts\
+   7 .\activate
+   8 cd ../../
+   9 pip install django
+  10 python -m pip install --upgrade pip
+  11 django-admin startproject project
+  12 cd .\project\
+  13 python manage.py startapp app
+
+
+
+
+   2 py -m venv env
+   3 cd .\env\
+   4 cd .\Scripts\
+   5 .\activate
+   6 cd..
+   7 cd..
+   8 pip install django
+   9 python -m pip install --upgrade pip
+  10 django-admin startproject project
+  11 cd .\project\
+  12 python manage.py start app
+  13 python manage.py startapp app
